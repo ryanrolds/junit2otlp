@@ -1,4 +1,4 @@
-module github.com/mdelapenya/junit2otlp
+module github.com/ryanrolds/junit2otlp
 
 go 1.18
 

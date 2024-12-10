@@ -1,6 +1,6 @@
 # junit2otlp
 
-[![Tests](https://github.com/mdelapenya/junit2otlp/actions/workflows/tests.yml/badge.svg)](https://github.com/mdelapenya/junit2otlp/actions/workflows/tests.yml)
+[![Tests](https://github.com/ryanrolds/junit2otlp/actions/workflows/tests.yml/badge.svg)](https://github.com/ryanrolds/junit2otlp/actions/workflows/tests.yml)
 
 This simple CLI, written in Go, is sending jUnit metrics to a back-end using [Open Telemetry](https://opentelemetry.io).
 
@@ -200,7 +200,7 @@ Because the XML test report is evaluated for a project **in a SCM repository**, 
 | `scm.branch` | Name of the branch where the test execution is processed |
 | `scm.committers` | Array of unique Email addresses for the committers of the commits |
 | `scm.provider` | Optional. If present, will include the name of the SCM provider, such as Github, Gitlab, Bitbucket, etc. |
-| `scm.repository` | Array of unique URLs representing the repository (i.e. https://github.com/mdelapenya/junit2otlp) |
+| `scm.repository` | Array of unique URLs representing the repository (i.e. https://github.com/ryanrolds/junit2otlp) |
 | `scm.type` | Type of the SCM (i.e. git, svn, mercurial)  At this moment the tool only supports Git repositories. |
 
 #### Change request attributes
